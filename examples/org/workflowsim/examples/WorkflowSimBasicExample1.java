@@ -98,7 +98,15 @@ public class WorkflowSimBasicExample1 {
              * Should change this based on real physical path
              */
             // The default path has been changed to new path as per requirement
-            String daxPath = "/home/tusif/git/WorkflowSimTsf/config/dax/Montage_100.xml";
+
+//            String daxPath = "/home/tusif/git/WorkflowSimTsf/config/dax/CyberShake_30.xml";
+//            String daxPath = "/home/tusif/git/WorkflowSimTsf/config/dax/Epigenomics_24.xml";
+//            String daxPath = "/home/tusif/git/WorkflowSimTsf/config/dax/floodplain.xml";
+            String daxPath = "/home/tusif/git/WorkflowSimTsf/config/dax/HEFT_paper.xml";
+//            String daxPath = "/home/tusif/git/WorkflowSimTsf/config/dax/Inspiral_30.xml";
+//            String daxPath = "/home/tusif/git/WorkflowSimTsf/config/dax/Montage_25.xml";
+//            String daxPath = "/home/tusif/git/WorkflowSimTsf/config/dax/Sipht_30.xml";
+            
             File daxFile = new File(daxPath);
             if (!daxFile.exists()) {
                 Log.printLine("Warning: Please replace daxPath with the physical path in your working environment!");
