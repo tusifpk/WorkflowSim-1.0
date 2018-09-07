@@ -93,10 +93,11 @@ public class WorkflowSimBasicExample1 {
              * the data center or the host doesn't have sufficient resources the
              * exact vmNum would be smaller than that. Take care.
              */
-            int vmNum = 20;//number of vms;
+            int vmNum = 10;//number of vms;
             /**
              * Should change this based on real physical path
              */
+            // The default path has been changed to new path as per requirement
             String daxPath = "/home/tusif/git/WorkflowSimTsf/config/dax/Montage_100.xml";
             File daxFile = new File(daxPath);
             if (!daxFile.exists()) {
